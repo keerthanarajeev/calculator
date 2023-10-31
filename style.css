@@ -12,12 +12,13 @@ h1
 body
 {
     background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    height: 94vh;
 }
 
 .calc
 {
-    width: 292px;
-    height: 450px;
+    width: 24%;
+    height: 67%;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -26,12 +27,12 @@ body
     border-radius: 15px;
 }
 #output
-{
+{  
     background-color: transparent;
     color: white;
     cursor: pointer;
     height: 80px;
-    width: 265px;
+    width: 92%;
     margin: 10px;
     border: none;
     outline: none;
@@ -47,8 +48,8 @@ input::placeholder
 {
     background-color: transparent;
     color: white;
-    width: 50px;
-    height: 50px;
+    width: 51px;
+    height: 51px;
     font-weight: 600;
     font-size: 1.7rem;
     margin: 10px;
@@ -77,3 +78,8 @@ input::placeholder
     background: #4e4f50;
 
 }
+#delete,#clear
+{font-size: 1.3rem;}
+
+
+
