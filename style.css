@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Archivo+Black&family=Bebas+Neue&family=Croissant+One&family=Dosis:wght@200;300;400;500&family=Handlee&family=Indie+Flower&family=Inter:wght@300;400;500&family=Josefin+Sans:wght@100;200&family=Merienda&family=Passion+One:wght@400;700;900&family=Poppins:wght@200&family=Roboto&family=Roboto+Slab:wght@300;400;500;600&family=Satisfy&family=Source+Code+Pro:ital,wght@1,200;1,300&family=Teko:wght@400;500;600;700&display=swap');
+
+
+h1
+{
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+         color: rgb(241, 233, 219);
+}
+
+body
+{
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calc
+{
+    width: 292px;
+    height: 450px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
+    border: 2px solid rgb(116, 114, 114);
+    border-radius: 15px;
+}
+#output
+{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    height: 80px;
+    width: 265px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    font-size: 2.6rem;
+    border-radius: 10px;
+    text-align: right;
+}
+input::placeholder
+{
+    color: #fff;
+}
+.button
+{
+    background-color: transparent;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin: 10px;
+    border: 0;
+    border: none;
+    border-radius: 50%;
+    box-shadow: -5px -6px 15px #000;
+    outline: 1px solid rgb(36, 35, 35);
+    outline-offset: 3px;
+    cursor: pointer;
+}
+
+
+.clear
+{
+    background-color: rgb(79, 77, 77);
+}
+
+.oper
+{
+    background-color: orange;
+}
+.button:hover
+{
+    border: 1px solid black;
+    background: #4e4f50;
+
+}
