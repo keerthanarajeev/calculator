@@ -7,37 +7,39 @@ h1
     text-align: center;
     font-family: 'Chakra Petch', sans-serif;
          color: rgb(241, 233, 219);
+         margin-top: 6px;
 }
 
 body
 {
     background: linear-gradient(45deg, #0a0a0a, #3a4452);
-    height: 94vh;
+    height:97vh ;
 }
 
 .calc
 {
-    width: 24%;
-    height: 67%;
+    width: 292px;
+    height: 450px;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 15px #000;
     border: 2px solid rgb(116, 114, 114);
     border-radius: 15px;
+    
 }
 #output
-{  
-    background-color: transparent;
+{
+    /* background-color: transparent; */
+    background-color: violet;
     color: white;
     cursor: pointer;
     height: 80px;
-    width: 92%;
+    width: 265px;
     margin: 10px;
     border: none;
     outline: none;
     font-size: 2.6rem;
-    border-radius: 10px;
     text-align: right;
 }
 input::placeholder
@@ -48,8 +50,8 @@ input::placeholder
 {
     background-color: transparent;
     color: white;
-    width: 51px;
-    height: 51px;
+    width: 50px;
+    height: 50px;
     font-weight: 600;
     font-size: 1.7rem;
     margin: 10px;
@@ -82,4 +84,11 @@ input::placeholder
 {font-size: 1.3rem;}
 
 
+@media (max-width: 600px)
+{   
+        #clear, #delete{font-size: 1rem;}
+        
+        
 
+        
+}
