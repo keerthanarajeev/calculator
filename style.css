@@ -1,37 +1,46 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Archivo+Black&family=Bebas+Neue&family=Croissant+One&family=Dosis:wght@200;300;400;500&family=Handlee&family=Indie+Flower&family=Inter:wght@300;400;500&family=Josefin+Sans:wght@100;200&family=Merienda&family=Passion+One:wght@400;700;900&family=Poppins:wght@200&family=Roboto&family=Roboto+Slab:wght@300;400;500;600&family=Satisfy&family=Source+Code+Pro:ital,wght@1,200;1,300&family=Teko:wght@400;500;600;700&display=swap');
-
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+}
 
 h1
 {
     text-align: center;
     font-family: 'Chakra Petch', sans-serif;
          color: rgb(241, 233, 219);
-         margin-top: 6px;
+         margin-top: 10px;
 }
 
 body
 {
     background: linear-gradient(45deg, #0a0a0a, #3a4452);
-    height:97vh ;
 }
 
 .calc
 {
-    width: 292px;
-    height: 450px;
+    width: 320px;
+    height: 475px;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 15px #000;
     border: 2px solid rgb(116, 114, 114);
     border-radius: 15px;
+    margin-top: 25px;
     
 }
 #output
 {
-    /* background-color: transparent; */
-    background-color: violet;
+    background-color: transparent;
     color: white;
     cursor: pointer;
     height: 80px;
